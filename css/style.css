@@ -1,0 +1,123 @@
+/* Base styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "open sans", sans-serif;
+}
+
+hr {
+    width: 70px;
+    border: 1px solid #007bff;
+    border-bottom: 0;
+
+}
+
+section {
+    padding: 120 0;
+}
+
+.section-header {
+    margin-bottom: 75px;
+}
+
+.section-header h2 {
+    color: #333;
+    font-size: 1,9em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333;
+    border: 14px 20px;
+    transition: all .3s;
+
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #007bff;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+
+.main-header {
+    height: 70vh;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header .main-header-content {
+    text-align: center;
+}
+
+
+
+.main-header .main-header-content h1 {
+    font-size: 4.2mm;
+    color: blue;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main-header .main-header-content p {
+    color: #333;
+    font-size: 1.3em;
+    margin: 40px 0;
+}
+
+.main-header .main-header-content p span {
+    color: #007bff;
+    
+}
+
+/* Main menu styles */
+.main-menu {
+    background-color: #007bff;
+
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main-menu ul .menu-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-menu ul .menu-item {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    transition: all .3s;
+
+}
+
+.main-menu ul .menu-item a:hover {
+    color: #007bff;
+    background-color: #fff;
+}
+
+
+
